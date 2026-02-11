@@ -17,7 +17,8 @@
         <nav class="navbar navbar-expand-xl mx-5">
             <div class="container-fluid ps-3">
                 <div class="logo-container">
-                    <a class="navbar-brand" href="index.html"><img src="image/bmajormalvern.PNG" alt="" class="img-fluid"></a>
+                    <a class="navbar-brand" href="index.html"><img src="image/bmajormalvern.PNG" alt=""
+                            class="img-fluid"></a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,14 +31,14 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" aria-current="page" href="about.html">About Us</a>
-                           
+
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
                             <ul class="dropdown-menu">
-                         
+
                                 <li><a class="dropdown-item" href="ukulele_lesson.html">Ukulele Lesson</a></li>
                                 <li><a class="dropdown-item" href="guitar_lesson.html">Guitar Lesson</a></li>
                                 <li><a class="dropdown-item" href="piano_lesson.html">Piano Lesson</a></li>
@@ -48,12 +49,12 @@
                                         Program</a></li>
                                 <li><a class="dropdown-item" href="music_therapy_tution.html">Music Therapy Lesson</a>
                                 </li>
-                                   <li><a class="dropdown-item" href="online_course.html">Online Courses</a>
+                                <li><a class="dropdown-item" href="online_course.html">Online Courses</a>
                                 </li>
 
                             </ul>
                         </li>
-  
+
                     </ul>
                     <div class="d-flex flex-row gap-3 w-max-content justify-content-center">
                         <div class="border-end pe-3">
@@ -149,51 +150,64 @@
                                                 class="fa-solid fa-xmark"></i></button>
                                     </div>
                                 </div>
-                                <form
+                                <form action="https://api.web3forms.com/submit" method="POST"
                                     class="d-flex flex-column gap-1 h-100 justify-content-center w-100 needs-validation form"
                                     novalidate>
+                                    <!-- Web3Forms access key -->
+                                    <input type="hidden" name="access_key" value="d844c0c0-7a2e-4cf9-a501-51f9c97a483a">
+
                                     <div class="mb-3">
-                                        <label for="name" class="form-label">Full Name<span
-                                                class="accent-color">*</span></label>
+                                        <label for="name" class="form-label">
+                                            Full Name<span class="accent-color">*</span>
+                                        </label>
                                         <input type="text" class="form-control py-3 px-4" name="name" id="name"
                                             placeholder="Your Full Name" required>
                                         <div class="invalid-feedback">
                                             The field is required.
                                         </div>
                                     </div>
+
                                     <div class="mb-3">
-                                        <label for="email" class="form-label">E-mail<span
-                                                class="accent-color">*</span></label>
+                                        <label for="email" class="form-label">
+                                            E-mail<span class="accent-color">*</span>
+                                        </label>
                                         <input type="email" class="form-control py-3 px-4" name="email" id="email"
                                             placeholder="Your E-mail" required>
                                         <div class="invalid-feedback">
                                             The field is required.
                                         </div>
                                     </div>
+
                                     <div class="mb-3">
-                                        <label for="message" class="form-label">Message<span
-                                                class="accent-color">*</span></label>
+                                        <label for="message" class="form-label">
+                                            Message<span class="accent-color">*</span>
+                                        </label>
                                         <textarea class="form-control py-3 px-4" id="message" name="message" rows="4"
-                                            placeholder="Your Message"></textarea>
+                                            placeholder="Your Message" required></textarea>
+                                        <div class="invalid-feedback">
+                                            The field is required.
+                                        </div>
                                     </div>
+
                                     <div>
                                         <button type="submit"
                                             class="btn btn-accent submit_form d-flex justify-content-center gap-2 rounded-0">
-                                            <span>Submit</span> 
+                                            <span>Submit</span>
                                         </button>
                                     </div>
                                 </form>
+
                             </div>
                             <h4 class="accent-color m-0">Contact US</h4>
-                  
+
                             <div class="d-flex flex-column gap-3">
                                 <a href="" class="read-more d-flex flex-row gap-2 align-items-center">
                                     <i class="rtmicon rtmicon-envelope"></i>
-                                   Info@bmajormusic.com.au
+                                    Info@bmajormusic.com.au
                                 </a>
                                 <a href="" class="read-more d-flex flex-row gap-2 align-items-center">
                                     <i class="rtmicon rtmicon-classic-phone"></i>
-                                   0477-556-562
+                                    0477-556-562
                                 </a>
                                 <a href="" class="read-more d-flex flex-row gap-2 align-items-center">
                                     <i class="rtmicon rtmicon-location"></i>
@@ -208,7 +222,10 @@
                             <p>Stay connected to discover what we offer. If you have questions or want to collaborate,
                                 we’re here to help!</p>
                             <div class="position-relative h-100">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.1005848013506!2d145.03511397577478!3d-37.85793683656367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad669e2c897577d%3A0x1ca2c5ebea0e8a00!2s1370%20High%20St%2C%20Malvern%20VIC%203144!5e0!3m2!1sen!2sau!4v1763868933906!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.1005848013506!2d145.03511397577478!3d-37.85793683656367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad669e2c897577d%3A0x1ca2c5ebea0e8a00!2s1370%20High%20St%2C%20Malvern%20VIC%203144!5e0!3m2!1sen!2sau!4v1763868933906!5m2!1sen!2sau"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                             <div class="d-flex flex-column gap-3">
                                 <h4 class="accent-color">Opening Hours</h4>
@@ -231,460 +248,11 @@
             </div>
         </div>
 
-        <!-- Section Partner -->
-        <!-- <div class="section pt-0">
-            <div class="r-container d-flex flex-column gap-5 align-items-center scrollanimation animated fadeInLeft">
-                <div class="swiper swiperPartner w-100">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide p-0">
-                            <div class="partner">
-                                <img src="image/Logo-1.png" class="img-fluid" alt="image">
-                            </div>
-                        </div>
-                        <div class="swiper-slide p-0">
-                            <div class="partner">
-                                <img src="image/Logo-2.png" class="img-fluid " alt="image">
-                            </div>
-                        </div>
-                        <div class="swiper-slide p-0">
-                            <div class="partner">
-                                <img src="image/Logo-3.png" class="img-fluid" alt="image">
-                            </div>
-                        </div>
-                        <div class="swiper-slide p-0">
-                            <div class="partner">
-                                <img src="image/Logo-4.png" class="img-fluid" alt="image">
-                            </div>
-                        </div>
-                        <div class="swiper-slide p-0">
-                            <div class="partner">
-                                <img src="image/Logo-5.png" class="img-fluid" alt="image">
-                            </div>
-                        </div>
-                        <div class="swiper-slide p-0">
-                            <div class="partner">
-                                <img src="image/Logo-1.png" class="img-fluid" alt="image">
-                            </div>
-                        </div>
-                        <div class="swiper-slide p-0">
-                            <div class="partner">
-                                <img src="image/Logo-2.png" class="img-fluid " alt="image">
-                            </div>
-                        </div>
-                    </div>
-   
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </div> -->
 
-        <!-- Section FAQs -->
-        <!-- <div class="section pt-0 bg-attach-cover" style="background-image: url(image/bg-faq2.png);">
-            <div class="r-container d-flex flex-column gap-5">
-                <div class="d-flex flex-column gap-3 align-items-center justify-content-center mx-auto text-center">
-                    <h3 class="brush5">Frequently Asked Questions</h3>
-                    <p>We provide a dedicated environment to bring your musical ideas to life. With our
-                        state-of-the-art studios and expert team.Find quick answers to common questions about our
-                        services, from session details to pricing. If you need more information, feel free to reach out!
-                    </p>
-                </div>
-                <div class="tab-container faq">
-                    <div class="tabs faq col-xl-4 scrollanimation animated fadeInDown">
-                        <h4 class="text-start">Categories</h4>
-                        <div class="tab active" data-tab="faq-1">
-                            <h5 class="m-0">Studio Features</h5>
-                            <i class="rtmicon rtmicon-chevron-right"></i>
-                        </div>
-                        <div class="tab" data-tab="faq-2">
-                            <h5 class="m-0">Booking & Availability</h5>
-                            <i class="rtmicon rtmicon-chevron-right"></i>
-                        </div>
-                        <div class="tab" data-tab="faq-3">
-                            <h5 class="m-0">Support & Services</h5>
-                            <i class="rtmicon rtmicon-chevron-right"></i>
-                        </div>
-                        <div class="tab" data-tab="faq-4">
-                            <h5 class="m-0">Policies & Guidelines</h5>
-                            <i class="rtmicon rtmicon-chevron-right"></i>
-                        </div>
-                    </div>
-                    <div class="tab-content faq scrollanimation animated fadeInRight">
-                        <div class="content active" id="faq-1">
-                            <div class="d-flex flex-column gap-3">
-                                <h3>FAQs</h3>
-                                <div class="d-flex flex-column gap-4 w-100 scrollanimation animated fadeInRight">
-                                    <div class="accordion mt-3 d-flex flex-column gap-4" id="faqAccordion1">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                                                    What types of music projects can be recorded in Studio 1?
-                                                </button>
-                                            </h2>
-                                            <div id="faq1" class="accordion-collapse collapse show"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Studio 1 is designed to accommodate a variety of music projects,
-                                                    from solo vocal recordings and instrumental tracks to full band
-                                                    sessions. Its versatile equipment and acoustically treated
-                                                    environment make it suitable for all genres and styles.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq2"
-                                                    aria-expanded="false" aria-controls="faq2">
-                                                    Is the studio acoustically treated?
-                                                </button>
-                                            </h2>
-                                            <div id="faq2" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Yes, the studio is fully acoustically treated to ensure optimal
-                                                    sound quality for recording and mixing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq3"
-                                                    aria-expanded="false" aria-controls="faq3">
-                                                    What instruments are available in the studio?
-                                                </button>
-                                            </h2>
-                                            <div id="faq3" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    The studio provides a range of instruments, including guitars, bass,
-                                                    drums, keyboards, and various percussion instruments. (You can
-                                                    specify the exact instruments available.)
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq4"
-                                                    aria-expanded="false" aria-controls="faq4">
-                                                    Can the studio handle full band recordings?
-                                                </button>
-                                            </h2>
-                                            <div id="faq4" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Yes, the studio is equipped to handle full band recordings with
-                                                    multiple instrument setups and professional-grade recording
-                                                    equipment.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item border-0">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq5"
-                                                    aria-expanded="false" aria-controls="faq5">
-                                                    Does the studio support live tracking?
-                                                </button>
-                                            </h2>
-                                            <div id="faq5" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Yes, live tracking is supported, allowing musicians to record
-                                                    together in real-time for a more natural and dynamic performance.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content" id="faq-2">
-                            <div class="d-flex flex-column gap-3">
-                                <h3>FAQs</h3>
-                                <div class="d-flex flex-column gap-4 w-100 scrollanimation animated fadeInRight">
-                                    <div class="accordion mt-3 d-flex flex-column gap-4" id="faqAccordion1">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                                                    What types of music projects can be recorded in Studio 1?
-                                                </button>
-                                            </h2>
-                                            <div id="faq1" class="accordion-collapse collapse show"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Studio 1 is designed to accommodate a variety of music projects,
-                                                    from solo vocal recordings and instrumental tracks to full band
-                                                    sessions. Its versatile equipment and acoustically treated
-                                                    environment make it suitable for all genres and styles.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq2"
-                                                    aria-expanded="false" aria-controls="faq2">
-                                                    Is the studio acoustically treated?
-                                                </button>
-                                            </h2>
-                                            <div id="faq2" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Yes, the studio is fully acoustically treated to ensure optimal
-                                                    sound quality for recording and mixing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq3"
-                                                    aria-expanded="false" aria-controls="faq3">
-                                                    What instruments are available in the studio?
-                                                </button>
-                                            </h2>
-                                            <div id="faq3" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    The studio provides a range of instruments, including guitars, bass,
-                                                    drums, keyboards, and various percussion instruments. (You can
-                                                    specify the exact instruments available.)
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq4"
-                                                    aria-expanded="false" aria-controls="faq4">
-                                                    Can the studio handle full band recordings?
-                                                </button>
-                                            </h2>
-                                            <div id="faq4" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Yes, the studio is equipped to handle full band recordings with
-                                                    multiple instrument setups and professional-grade recording
-                                                    equipment.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item border-0">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq5"
-                                                    aria-expanded="false" aria-controls="faq5">
-                                                    Does the studio support live tracking?
-                                                </button>
-                                            </h2>
-                                            <div id="faq5" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Yes, live tracking is supported, allowing musicians to record
-                                                    together in real-time for a more natural and dynamic performance.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content" id="faq-3">
-                            <div class="d-flex flex-column gap-3">
-                                <h3>FAQs</h3>
-                                <div class="d-flex flex-column gap-4 w-100 scrollanimation animated fadeInRight">
-                                    <div class="accordion mt-3 d-flex flex-column gap-4" id="faqAccordion1">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                                                    What types of music projects can be recorded in Studio 1?
-                                                </button>
-                                            </h2>
-                                            <div id="faq1" class="accordion-collapse collapse show"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Studio 1 is designed to accommodate a variety of music projects,
-                                                    from solo vocal recordings and instrumental tracks to full band
-                                                    sessions. Its versatile equipment and acoustically treated
-                                                    environment make it suitable for all genres and styles.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq2"
-                                                    aria-expanded="false" aria-controls="faq2">
-                                                    Is the studio acoustically treated?
-                                                </button>
-                                            </h2>
-                                            <div id="faq2" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Yes, the studio is fully acoustically treated to ensure optimal
-                                                    sound quality for recording and mixing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq3"
-                                                    aria-expanded="false" aria-controls="faq3">
-                                                    What instruments are available in the studio?
-                                                </button>
-                                            </h2>
-                                            <div id="faq3" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    The studio provides a range of instruments, including guitars, bass,
-                                                    drums, keyboards, and various percussion instruments. (You can
-                                                    specify the exact instruments available.)
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq4"
-                                                    aria-expanded="false" aria-controls="faq4">
-                                                    Can the studio handle full band recordings?
-                                                </button>
-                                            </h2>
-                                            <div id="faq4" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Yes, the studio is equipped to handle full band recordings with
-                                                    multiple instrument setups and professional-grade recording
-                                                    equipment.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item border-0">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq5"
-                                                    aria-expanded="false" aria-controls="faq5">
-                                                    Does the studio support live tracking?
-                                                </button>
-                                            </h2>
-                                            <div id="faq5" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Yes, live tracking is supported, allowing musicians to record
-                                                    together in real-time for a more natural and dynamic performance.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content" id="faq-4">
-                            <div class="d-flex flex-column gap-3">
-                                <h3>FAQs</h3>
-                                <div class="d-flex flex-column gap-4 w-100 scrollanimation animated fadeInRight">
-                                    <div class="accordion mt-3 d-flex flex-column gap-4" id="faqAccordion1">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                                                    What types of music projects can be recorded in Studio 1?
-                                                </button>
-                                            </h2>
-                                            <div id="faq1" class="accordion-collapse collapse show"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Studio 1 is designed to accommodate a variety of music projects,
-                                                    from solo vocal recordings and instrumental tracks to full band
-                                                    sessions. Its versatile equipment and acoustically treated
-                                                    environment make it suitable for all genres and styles.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq2"
-                                                    aria-expanded="false" aria-controls="faq2">
-                                                    Is the studio acoustically treated?
-                                                </button>
-                                            </h2>
-                                            <div id="faq2" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Yes, the studio is fully acoustically treated to ensure optimal
-                                                    sound quality for recording and mixing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq3"
-                                                    aria-expanded="false" aria-controls="faq3">
-                                                    What instruments are available in the studio?
-                                                </button>
-                                            </h2>
-                                            <div id="faq3" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    The studio provides a range of instruments, including guitars, bass,
-                                                    drums, keyboards, and various percussion instruments. (You can
-                                                    specify the exact instruments available.)
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq4"
-                                                    aria-expanded="false" aria-controls="faq4">
-                                                    Can the studio handle full band recordings?
-                                                </button>
-                                            </h2>
-                                            <div id="faq4" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Yes, the studio is equipped to handle full band recordings with
-                                                    multiple instrument setups and professional-grade recording
-                                                    equipment.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item border-0">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq5"
-                                                    aria-expanded="false" aria-controls="faq5">
-                                                    Does the studio support live tracking?
-                                                </button>
-                                            </h2>
-                                            <div id="faq5" class="accordion-collapse collapse"
-                                                data-bs-parent="#faqAccordion1">
-                                                <div class="accordion-body">
-                                                    Yes, live tracking is supported, allowing musicians to record
-                                                    together in real-time for a more natural and dynamic performance.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
     </main>
 
-      <footer>
+    <footer>
         <div class="section pb-0 pt-5 position-relative border-top border-accent" style="height: 90vh;">
             <div class="d-flex flex-column gap-3 h-100">
                 <div class="row row-cols-xl-2 row-cols-1 h-100">
@@ -745,12 +313,12 @@
                                             Ukulele Lesson
                                         </a>
                                     </div>
-                                           <div class="border-end border-accent px-4">
+                                    <div class="border-end border-accent px-4">
                                         <a href="piano_lesson.html" class="read-more">
                                             Piano Lesson
                                         </a>
                                     </div>
-                                            <div class="border-end border-accent px-4">
+                                    <div class="border-end border-accent px-4">
                                         <a href="vocal_lesson.html" class="read-more">
                                             Vocal Lesson
                                         </a>
@@ -820,8 +388,8 @@
                                                     <div class="image-zoom">
                                                         <div
                                                             class="d-flex flex-column gap-2 h-100 align-items-center justify-content-center accent-color">
-                                                            <a href="image/flexible.png"
-                                                                data-fslightbox="gallery" class="social-item p-3">
+                                                            <a href="image/flexible.png" data-fslightbox="gallery"
+                                                                class="social-item p-3">
                                                                 <i class="fa-solid fa-magnifying-glass-plus"></i>
                                                             </a>
                                                             <span class="small-text">Retro Vintage</span>
@@ -837,8 +405,8 @@
                                                     <div class="image-zoom">
                                                         <div
                                                             class="d-flex flex-column gap-2 h-100 align-items-center justify-content-center accent-color">
-                                                            <a href="image/expert.png"
-                                                                data-fslightbox="gallery" class="social-item p-3">
+                                                            <a href="image/expert.png" data-fslightbox="gallery"
+                                                                class="social-item p-3">
                                                                 <i class="fa-solid fa-magnifying-glass-plus"></i>
                                                             </a>
                                                             <span class="small-text">Retro Vintage</span>
@@ -891,7 +459,7 @@
                     <span class="text-color-2 fs-6 font-2">
                         Copyright © 2025 B Major Music Malvern. All Rights Reserved.
                     </span>
-            
+
                 </div>
             </div>
         </div>
